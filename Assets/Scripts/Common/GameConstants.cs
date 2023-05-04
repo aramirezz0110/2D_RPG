@@ -6,6 +6,7 @@ public static class CharacterAnimParams
 {    
     public static int X_Axis => Animator.StringToHash("X");
     public static int Y_Axis => Animator.StringToHash("Y");
-    public static string LayerIdle => "Idle";
-    public static string LayerWalk => "Walk";
+    public static int Defeated => Animator.StringToHash("Defeated");
+    public static string IdleLayer => "Idle";
+    public static string WalkLayer => "Walk";
 }
