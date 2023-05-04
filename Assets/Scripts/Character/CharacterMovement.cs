@@ -6,10 +6,12 @@ public class CharacterMovement : MonoBehaviour
 {
     [Header("CONFIG")]
     [SerializeField] private float speed=5f;
-      
-
+    
     [Header("REFERENCES")]
     [SerializeField] private PlayerInputReader inputReader;
+
+    public Vector2 MovementDirection => inputReader.MovementValue;
+    public bool IsMoving => inputReader.MovementValue.magnitude > 0f;
 
     private Rigidbody2D _rigidbody2D;
 
