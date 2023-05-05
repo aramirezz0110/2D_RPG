@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tilemap_Floor
+    uniqueID: 514440623
+    locked: 0
+  - name: Character
+    uniqueID: 1188016085
+    locked: 0
