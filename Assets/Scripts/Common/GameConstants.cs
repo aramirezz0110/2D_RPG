@@ -14,3 +14,8 @@ public static class GameTags
 {
     public static string Player => "Player";
 }
+public static class SceneNames
+{
+    public static string MainMenu = "MainMenu";
+    public static string Game = "Game";
+}

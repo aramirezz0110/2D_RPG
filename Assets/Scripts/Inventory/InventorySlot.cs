@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,6 +11,8 @@ public class InventorySlot : MonoBehaviour
     [SerializeField] private Image itemIcon;
     [SerializeField] private GameObject backgroungAmount;
     [SerializeField] private TMP_Text amountText;
+
+    public static Action<InteractionType, int> SlotInteractionEvent;
 
     public int Index { get; set; }
 
@@ -24,5 +27,9 @@ public class InventorySlot : MonoBehaviour
         itemIcon.gameObject.SetActive(state);
         backgroungAmount.gameObject.SetActive(state);
     }
+    public void ClickSlot() => SlotInteractionEvent?.Invoke(InteractionType.Click, Index);
+    public void UseSlot() => SlotInteractionEvent?.Invoke(InteractionType.Use, Index);
+    public void EquipSlot() => SlotInteractionEvent?.Invoke(InteractionType.Equip, Index);
+    public void RemoveSlot() => SlotInteractionEvent?.Invoke(InteractionType.Remove, Index);
     #endregion
 }

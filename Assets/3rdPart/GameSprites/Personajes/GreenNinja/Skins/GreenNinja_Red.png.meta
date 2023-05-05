@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fa093baa44380ad4c895fdd4eb814601
+guid: ad50ea98d14ad4343a286ce6df88b81b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GreenNinjaRed_0
+      name: GreenNinja_Red_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c19da84fa1672b409d1fed894914e0d
-      internalID: 820973958
+      spriteID: 83e689a9a2b4aff4082c3d532171f351
+      internalID: -1945485744
       vertices: []
       indices: 
       edges: []
@@ -135,10 +135,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GreenNinjaRed_0: 820973958
-      GreenNinjaRed_3: 1371015703
-      GreenNinjaRed_1: 1214220409
-      GreenNinjaRed_2: -1596521360
+      GreenNinja_Red_3: -1197199219
+      GreenNinja_Red_1: -1523841860
+      GreenNinja_Red_2: -664031609
+      GreenNinja_Red_0: -1945485744
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

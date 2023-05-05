@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5160784a3fdfad84285ca9e9491c498d
-      internalID: 936495244
+      spriteID: 40500b87abbff4743bb5209fa80c817a
+      internalID: -1493588533
       vertices: []
       indices: 
       edges: []
@@ -135,10 +135,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GreenNinja_Black_1: -901579506
-      GreenNinja_Black_3: 1373209499
-      GreenNinja_Black_0: 936495244
-      GreenNinja_Black_2: 1438034868
+      GreenNinja_Black_1: 511385146
+      GreenNinja_Black_3: -423274700
+      GreenNinja_Black_0: -1493588533
+      GreenNinja_Black_2: 846005863
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

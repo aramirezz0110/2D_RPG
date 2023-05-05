@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BInterior_Corner_Sup_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93befc1b71588b42ad3addcf7a0ee66
+      internalID: 1959703681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BInterior_Border_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57369a60d0aef4a4a9286d7d4cd406a2
+      internalID: -1002505702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BInterior_Background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855c78b280bb9c94ebe56959c679d528
+      internalID: -2001535526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -113,7 +176,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mapa_Interiores_Deco_17: -1066058807
+      Mapa_Interiores_Deco_6: 1388727168
+      Mapa_Interiores_Deco_2: -985218451
+      Mapa_Interiores_Deco_21: 2073455705
+      Mapa_Interiores_Deco_15: -2061896122
+      Mapa_Interiores_Deco_8: -763902070
+      Mapa_Interiores_Deco_16: 402171372
+      BInterior_Border_Left: -1002505702
+      Mapa_Interiores_Deco_1: 1162514152
+      BInterior_Corner_Sup_Left: 1959703681
+      Mapa_Interiores_Deco_19: -1024009977
+      Mapa_Interiores_Deco_24: -1425974946
+      Mapa_Interiores_Deco_13: 1536866888
+      Mapa_Interiores_Deco_10: 784218052
+      Mapa_Interiores_Deco_14: 249633618
+      Mapa_Interiores_Deco_18: 331491908
+      Mapa_Interiores_Deco_22: -1851810452
+      BInterior_Background: -2001535526
+      Mapa_Interiores_Deco_11: 1182525084
+      Mapa_Interiores_Deco_7: -254771868
+      BInterior_Corner_Sup_Right: -193637690
+      Mapa_Interiores_Deco_23: 1663138937
+      Mapa_Interiores_Deco_9: -1584580001
+      Mapa_Interiores_Deco_12: -481764024
+      Mapa_Interiores_Deco_3: -302665340
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: ClothesRed
   Name: Clothes Red
-  Icon: {fileID: 820973958, guid: fa093baa44380ad4c895fdd4eb814601, type: 3}
-  Description: 
+  Icon: {fileID: -1945485744, guid: ad50ea98d14ad4343a286ce6df88b81b, type: 3}
+  Description: Red clothes
   type: 1
   IsConsumable: 0
   IsCumulative: 0
   MaxCumulative: 1
   Amount: 0
+  clothesColor: {r: 0.8867924, g: 0.28862584, b: 0.28862584, a: 1}

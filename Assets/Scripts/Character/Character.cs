@@ -9,6 +9,7 @@ public class Character : MonoBehaviour
     public CharacterLife CharacterLife { get; private set; }
     public CharacterAnimations CharacterAnimations { get; private set; }
     public CharacterMana CharacterMana { get; private set; }
+    public CharacterClothes CharacterClothes { get; private set; }
 
     private void Awake()
     {

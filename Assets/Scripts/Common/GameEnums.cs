@@ -14,3 +14,11 @@ public enum ItemType
     Ingredient,
     Treasure
 }
+
+public enum InteractionType
+{
+    Click,
+    Use,
+    Equip,
+    Remove
+}

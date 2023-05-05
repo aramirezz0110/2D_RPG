@@ -8,6 +8,7 @@ public class Inventory : Singleton<Inventory>
 
     [Header("ITEMS")]
     [SerializeField] private InventoryItem[] inventoryItems;
+    public InventoryItem[] InventoryItems => inventoryItems;
     public int SlotsAmount => slotsAmount;
     #region UNITY METHODS
     private void Start()
