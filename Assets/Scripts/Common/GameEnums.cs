@@ -8,6 +8,7 @@ public enum AttributeType
 public enum ItemType
 {
     Weapon,
+    Clothes,
     Potion,
     Parchment,
     Ingredient,
