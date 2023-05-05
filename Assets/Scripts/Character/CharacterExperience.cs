@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class CharacterExperience : MonoBehaviour
 {
+    [Header("STATS")]
+    [SerializeField] private CharacterStats stats;
+
     [SerializeField] private int maxLevel; //20
     [SerializeField] private int expBase; //2
     [SerializeField] private int incrementalValue; //2
 
-    public int Level { get; private set; }
-
+    private float currentExperience;
     private float expCurrentTemp;
     private float expRequiredNextLevel;
 
     #region UNITY METHODS
     private void Start()
     {
-        Level= 1;
+        stats.Level= 1;
         expRequiredNextLevel = expBase;
+        stats.ExperienceRequiredNextLevel = expRequiredNextLevel;
         UpdateExperienceBar();
     }
     private void Update()
@@ -31,11 +34,13 @@ public class CharacterExperience : MonoBehaviour
     #region PRIVATE METHODS
     private void UpdateLevel()
     {
-        if(Level < maxLevel)
+        if(stats.Level < maxLevel)
         {
-            Level++;
+            stats.Level++;
             expCurrentTemp = 0;
             expRequiredNextLevel *= incrementalValue;
+            stats.ExperienceRequiredNextLevel = expRequiredNextLevel;
+            stats.AvailablePoints += 3;
         }
     }
     private void UpdateExperienceBar()
@@ -52,11 +57,13 @@ public class CharacterExperience : MonoBehaviour
             if (expObtained >= expRemainingNewLevel)
             {
                 expObtained -= expRemainingNewLevel;
+                currentExperience += expObtained;
                 UpdateLevel();
                 AddExperience(expObtained);
             }
             else
             {
+                currentExperience += expObtained;
                 expCurrentTemp += expObtained;
                 if (expCurrentTemp == expRequiredNextLevel)
                 {
@@ -64,6 +71,8 @@ public class CharacterExperience : MonoBehaviour
                 }
             }
         }
+
+        stats.CurrentExperience = currentExperience;
         UpdateExperienceBar();
     }
     #endregion
