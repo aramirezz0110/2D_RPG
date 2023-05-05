@@ -13,6 +13,7 @@ public class UIManager : Singleton<UIManager>
 
     [Header("PANELS")]
     [SerializeField] private GameObject panelStats;
+    [SerializeField] private GameObject panelInventory;
 
     [Header("HEATH BAR REFERENCES")]
     [SerializeField] private Image playerHealth;
@@ -118,5 +119,7 @@ public class UIManager : Singleton<UIManager>
         currentExperience= pCurrentExp;
         expRequiredNewLevel= pExperienceRequired;
     }
+    public void OpenClosePanelStats() => panelStats?.SetActive(!panelStats.activeSelf);
+    public void OpenClosePanelInventory() => panelInventory?.SetActive(!panelInventory.activeSelf);
     #endregion
 }
