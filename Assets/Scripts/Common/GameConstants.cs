@@ -10,3 +10,7 @@ public static class CharacterAnimParams
     public static string IdleLayer => "Idle";
     public static string WalkLayer => "Walk";
 }
+public static class GameTags
+{
+    public static string Player => "Player";
+}
